@@ -11,7 +11,7 @@ window.onload = function () {
   function randomCard() {
     const cardContainer = document.getElementById("card-container");
 
-    if (cardContainer.children.length >= 10) {
+    if (cardContainer.children.length >= 15) {
       alert("Maximum amount of cards reached!");
       return;
     }
